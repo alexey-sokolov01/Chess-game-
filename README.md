@@ -54,6 +54,7 @@ mvn clean javafx:run
 
 ## Project Structure
 
+```text
 scr/
 ├── main/
     ├── java/
@@ -79,6 +80,7 @@ scr/
     |           └── King.java
     └── resources/
         └── pieces
+```
 
 'Board' contains the main game state and move handling.
 The individual chess pieces are implemented as subclasses of 'Piece'.
